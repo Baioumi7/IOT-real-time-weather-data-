@@ -1,0 +1,8 @@
+docker cp consumer.py spark-master:/opt/bitnami/spark 
+spark-submit --master spark://spark-master:7077 --packages com.github.jnr:jnr-posix:3.1.15,org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.2 consumer.py
+GET _cat/indices?v
+HEAD weather_data
+
+
+
+docker exec -it spark-master spark-submit --master spark://spark-master:7077 --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.2,org.apache.hadoop:hadoop-aws:3.3.1,com.amazonaws:aws-java-sdk-core:1.11.469 jobs/consumer.py
