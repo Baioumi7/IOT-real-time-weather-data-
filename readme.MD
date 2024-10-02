@@ -4,7 +4,7 @@
 
 This project implements a cloud-based system for processing and analyzing weather data using various AWS services and open-source technologies.
 
-![Cloud Architecture Diagram](path/to/your/diagram.png)
+
 
 ## Components
 
@@ -100,6 +100,5 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 
 ## Contact
 
-Your Name - your.email@example.com
+Bayoumii - mobayoo25@gmail.com
 
-Project Link: [https://github.com/yourusername/repo-name](https://github.com/yourusername/repo-name)
