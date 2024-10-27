@@ -1,8 +1,9 @@
 # Weather Data Processing and Analysis System
 
 ## Cloud Architecture Overview
-![Cloud Architecture](https://github.com/user-attachments/assets/Screenshot%202024-10-27%20184559.png)
+
 This project implements a cloud-based system for processing and analyzing weather data using various AWS services and open-source technologies.
+
 
 
 
